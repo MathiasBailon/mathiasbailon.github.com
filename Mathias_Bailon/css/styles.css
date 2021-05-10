@@ -1,0 +1,165 @@
+/*ENCABEZADOS*/
+header.main_header{
+  padding:15px;
+  background-color:#CC670B;
+  border-radius: 10px 10px 3px 3px;
+}
+
+/*Efectos 3d*/
+.tresDNegro{
+  text-shadow:2px 1px 2px #333333, 4px 2px 3px #555555;
+}
+.tresDRojo{
+  text-shadow:2px 2px 2px #702010, 3px 6px 4px #333333;
+}
+/*NAVEGADORES*/
+.navProp a{
+  text-shadow: 0 2px 3px rgba(0,0,0,0.50);
+  text-decoration: none;
+  display:inline-block ;
+  width: 20%;
+}
+
+/*Colores*/
+  /*Fondos*/
+  .backgroundGrey{
+    background-color:#b0b0b0
+  }
+  .backgroundBlack{
+     background-color:#010101;
+  }
+  /*General*/
+  .rojo{
+    color:#bb2717;
+  }
+  .naranja{
+    color:#CC670B;
+  }
+  a.negro{
+    color: black;
+  }
+
+/*TAMAÑOS*/
+.sizeS{
+  font-size:20px;
+}
+.sizeM{
+  font-size:50px;
+}
+
+/*ALINEACIONES de TEXTO*/
+.centertext{
+  text-align: center;
+}
+
+/*FUENTES*/
+.girassol{
+  font-family:'Girassol', sans-serif;
+}
+.Parisienne{
+  font-family: 'Parisienne',monospace;
+}
+.Lobster{
+  font-family: 'Lobster',fantasy;
+}
+.Pacifico{
+  font-family: 'Pacifico'
+}
+
+/*MARGENES*/
+.woMarge{
+  margin: 0px
+}
+.margeM-right{
+  padding-right:170px
+}
+.body{
+  padding: 15px 15px;
+}
+.superposition{
+  margin:20px -5px;
+}
+
+/*Contenedores*/
+.main-container{
+  height: 100vh;
+}
+/*Cards*/
+.card2{
+  border-radius: 20px 20px 10px 10px;
+  background-color: #b0b0b5;
+  box-shadow: 0px 4px 200px rgba(0, 0, 0, 0.20),0px 0px 8px rgba(0,0,0,0.50);
+  box-sizing: border-box;
+  margin: 4px;
+  height: 100vh;
+}
+.card{
+  border-radius: 20px;
+  background-color: #b0b0b5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12),0 2px 5px rgba(0,0,0,0.24);
+  box-sizing: border-box;
+  margin: 4px;
+}
+.FotosCards{
+  height: 230px;
+  border-radius: 3px;
+  background-color: #b0b0b5;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+/*Images Config*/
+.fotos img{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12),0px 2px 5px rgba(0,0,0,0.24);
+  margin: 1px;
+}
+.imgMenu img{
+  height: 200px;
+  margin: 2px;
+  border-radius: 20px;
+}
+.images{
+
+}
+
+/*dealay*/
+.delay1{
+  animation-delay: 0.1s;
+}
+.delay2{
+  animation-delay: 0.2s;
+}
+.delay3{
+  animation-delay: 0.3s;
+}
+.delay4{
+  animation-delay: 0.4s;
+}
+.delay5{
+  animation-delay: 0.5s;
+}
+
+/*Profundidad*/
+.zProf1{
+  z-index: 1;
+  position: relative;
+}
+.zProf2{
+  z-index: 2;
+  position: relative;
+}
+.zProf3{
+  z-index: 3;
+  position: relative;
+}
+.zProf4{
+  z-index: 4;
+  position: relative;
+}
+.zProf10{
+  z-index: 10;
+  position: relative;
+}
